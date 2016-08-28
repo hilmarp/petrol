@@ -1,41 +1,9 @@
-PhoneGap Vueify
+Petrol
 ===============
-PhoneGap with Vue, Browserify + vueify, hot reload, linting and unit testing.
+Mobile app that lists all petrol stations in Iceland
 
 Getting Started
 ---------------
-
-### Prerequisites
-To use this you'll need Node.js v5 or newer.
-
-### Installation
-***via Github***
-``` bash
-$ git clone https://github.com/leMaur/phonegap-vueify.git MyApp
-$ cd MyApp
-$ npm install
-$ npm run dev
-```
-
-***via Phonegap***
-```bash
-$ npm install -g phonegap
-$ phonegap create MyApp --template phonegap-vueify
-$ cd MyApp
-$ npm install
-$ npm run dev
-```
-
-***via Cordova***
-```bash
-$ npm install -g cordova
-$ cordova create MyApp --template=phonegap-vueify
-$ cd MyApp
-$ npm install
-$ npm run dev
-```
-Please, change `MyApp` with your folder name.  
-You can then open the app in your browser by visiting [localhost:8888](http://localhost:8888)  
 
 ### What's included
 - `npm run dev`: Browserify + `vueify` with proper config for source map & hot-reload.
