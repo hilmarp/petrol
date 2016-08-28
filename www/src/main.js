@@ -1,5 +1,8 @@
 import Vue from 'vue'
+import VueResource from 'vue-resource'
 import App from './App.vue'
+
+Vue.use(VueResource)
 
 /* eslint-disable no-new */
 var Phonegap = {
@@ -27,7 +30,7 @@ var Phonegap = {
 
 	// Update DOM on a Received Event
 	receivedEvent() {
-		
+
 		console.log('The device is ready!')
 
 		// Load Vue instance

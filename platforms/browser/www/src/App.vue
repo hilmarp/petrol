@@ -1,13 +1,13 @@
 <template>
-    <hello></hello>
+    <stations></stations>
 </template>
 
 <script>
-	import Hello from './components/Hello.vue'
+	import Stations from './components/Stations.vue'
 
 	export default {
 		components: {
-			Hello
+			Stations
 		}
 	}
 </script>
@@ -39,12 +39,12 @@
 		height: 100%
 		margin: 0
 		padding: 0
-		
+
 		font-family: 'Dosis', sans-serif
 		font-size: 16px
 		background-color: color-bg
 		color: color-text
-		
+
 		box-sizing: border-box
 		overflow: hidden
 

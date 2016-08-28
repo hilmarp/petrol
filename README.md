@@ -5,7 +5,7 @@ Mobile app that lists all petrol stations in Iceland
 Getting Started
 ---------------
 
-### What's included
+### Commands
 - `npm run dev`: Browserify + `vueify` with proper config for source map & hot-reload.
 - `npm run build`: Production build with HTML/CSS/JS minification.
 - `npm run lint`: Lint JavaScript and `*.vue` files with ESLint.
@@ -14,10 +14,3 @@ Getting Started
 - `npm run [ ios | android ]`: Run in the iOS simulator / Android emulator. (Running in another terminal).
 - `npm run compile [ ios | android ]`: Build the app for the specified platform. Example (`npm run compile -- ios`).
 - `npm run clean`: Clean the `platforms/` and `dist/` folders.
-
-## License
-MIT. Copyright (c) 2016 Maurizio Lepora.
-
-## Credits
-- [Vue Browserify Boilerplate](https://github.com/vuejs-templates/browserify)
-- [PhoneGap template Hello World](https://github.com/phonegap/phonegap-template-hello-world)
